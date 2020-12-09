@@ -6,7 +6,7 @@
 "    By: zaz <zaz@staff.42.fr>                      +#+  +:+       +#+         "
 "                                                 +#+#+#+#+#+   +#+            "
 "    Created: 2013/06/15 12:45:56 by zaz               #+#    #+#              "
-"    Updated: 2013/07/26 16:59:00 by zaz              ###   ########.fr        "
+"    Updated: 2020/12/09 11:11:12 by alzaynou         ###   ########.fr        "
 "                                                                              "
 " **************************************************************************** "
 
@@ -62,6 +62,8 @@ let s:contentlen	= s:linelen - (3 * s:marginlen - 1) - strlen(s:asciiart[0])
 
 function s:trimlogin ()
 	let l:trimlogin = strpart($USER, 0, 9)
+	"let l:trimlogin = your login 
+	"alzaynou
 	if strlen(l:trimlogin) == 0
 		let l:trimlogin = "marvin"
 	endif
@@ -70,6 +72,8 @@ endfunction
 
 function s:trimemail ()
 	let l:trimemail = strpart($MAIL, 0, s:contentlen - 16)
+	"let l:trimemail = your imail
+	"0
 	if strlen(l:trimemail) == 0
 		let l:trimemail = "marvin@42.fr"
 	endif
