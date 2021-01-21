@@ -7,7 +7,6 @@ GEM
       amq-protocol (>= 2.0.0)
     facter (2.4.4)
       CFPropertyList (~> 2.2.6)
-    json (1.8.3)
 
 PLATFORMS
   ruby
@@ -15,7 +14,6 @@ PLATFORMS
 DEPENDENCIES
   bunny
   facter
-  json
 
 BUNDLED WITH
    2.1.4
