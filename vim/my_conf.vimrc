@@ -6,7 +6,7 @@
 "    By: alzaynou <marvin@42.fr>                    +#+  +:+       +#+         "
 "                                                 +#+#+#+#+#+   +#+            "
 "    Created: 2020/12/09 15:54:22 by alzaynou          #+#    #+#              "
-"    Updated: 2020/12/09 17:53:27 by alzaynou         ###   ########.fr        "
+"    Updated: 2021/01/21 09:28:24 by alzaynou         ###   ########.fr        "
 "                                                                              "
 " **************************************************************************** "
 
@@ -81,6 +81,10 @@ set showcmd
 "style match search
 highlight Search ctermfg=Yellow ctermbg=Black cterm=bold
 
+"highlight Visual
+highlight Visual ctermbg=DarkGray cterm=bold
+
 " revers color when columns lenght greater than 80 characters
 match ColorColumn '\%>80v.\+'
-highlight ColorColumn cterm=reverse ctermbg=Black
+ highlight ColorColumn ctermbg=DarkGray cterm=bold
+"highlight ColorColumn cterm=reverse ctermbg=Black
