@@ -1,0 +1,55 @@
+{
+  "editor.minimap.enabled": false,
+  "files.autoSaveDelay": 1,
+  "files.autoSave": "onFocusChange",
+  "workbench.colorTheme": "One Dark Pro",
+  "editor.fontSize": 14,
+  "workbench.iconTheme": "material-icon-theme",
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "settingsSync.ignoredExtensions": ["redhat.vscode-commons"],
+  "editor.inlineSuggest.enabled": true,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.letterSpacing": 0.5,
+  "terminal.integrated.letterSpacing": 1,
+  "terminal.integrated.fontFamily": "Source Code Pro",
+  "terminal.integrated.fontSize": 14,
+  "git.autofetch": true,
+  "editor.fontFamily": "SourceCodePro-Regular",
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 200,
+
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "comment",
+          "meta.function",
+          "variable",
+          "meta.class",
+          "entity.name.class",
+          "string",
+          "meta.function",
+          "meta.function-call",
+          "entity.name.function",
+          "invalid",
+          "punctuation.definition.string.end",
+          "storage",
+          "meta.class",
+          "support.class",
+          "meta.return-type",
+          "keyword"
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
+  }
+}
